@@ -1,0 +1,34 @@
+{
+  "name": "portforlio",
+  "version": "1.0.0",
+  "description": "Kim Rui's Portforlio Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 5001",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Heng Kim Rui",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.5",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.3",
+    "prettier": "^3.1.0"
+  }
+}
