@@ -81,6 +81,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
+          <LinkItem href="/publications" path={path}>
+            Publications
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://www.linkedin.com/in/kim-rui-heng-ph-d-5225aa1b2/"
@@ -124,6 +127,9 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Works
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/publications">
+                  Publications
                 </MenuItem>
                 <MenuItem
                   as={Link}

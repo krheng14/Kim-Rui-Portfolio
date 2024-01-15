@@ -5,7 +5,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -23,7 +22,8 @@ import {
   IoLogoGithub,
   IoLogoLinkedin,
   IoLogoWebComponent,
-  IoLogoYoutube
+  IoLogoYoutube,
+  IoCubeSharp
 } from 'react-icons/io5'
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -229,6 +229,24 @@ const Page = () => {
                   leftIcon={<IoLogoGithub />}
                 >
                   Source
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+          This website features 3D models sourced and refined from Sketchfab, an
+          online collection of open-source, Blender-compatible assets.
+          Contributed by talented artists, these models are further customized
+          by me to enhance the site's visual experience. I thank the community
+          for their foundational work.
+          <List>
+            <ListItem>
+              <Link href="https://sketchfab.com/feed" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoCubeSharp />}
+                >
+                  Sketchfab
                 </Button>
               </Link>
             </ListItem>

@@ -19,11 +19,15 @@ const Work = () => (
       </Title>
       <Paragraph>
         SignTalk is an innovative, ML-powered sign language interpreter designed
-        to bridge communication gaps. Utilizing MediaPipe for real-time body and
-        hand sign detection, coupled with a sophisticated LSTM model, it
-        translates sign language into text instantly. This groundbreaking
-        technology promises to enhance communication for the deaf and hard of
-        hearing, making interactions more inclusive and accessible.
+        to bridge communication gaps. Employing MediaPipe for real-time
+        detection of body and hand signs, integrated with an advanced LSTM
+        model, our system adeptly translates sign language into its
+        corresponding text. This instantaneous translation process not only
+        captures the essence of the communication but also displays the textual
+        interpretation of each sign, bridging communication gaps effectively.
+        Such groundbreaking technology promises to enhance communication for the
+        deaf and hard of hearing, making interactions more inclusive and
+        accessible.
       </Paragraph>
       <UnorderedList my={4}>
         <ListItem>Real-Time Sign Language Detection</ListItem>

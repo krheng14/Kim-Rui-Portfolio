@@ -24,10 +24,10 @@ const Work = () => (
         recognition and video-content's transcription and uses OpenAI GPT-4 to
         provide context-aware responses to learner's content-specific queries.
         It transforms the way users interact with educational videos by offering
-        features like direct timestamp navigation, transcriptions, summaries,
-        and simplified explanations in an "Explain Like I'm 5" style.
-        Furthermore, GPT-4's ability to generate test questions enhances the
-        learning experience, allowing learners to test and reinforce their
+        features like direct timestamp navigation, transcriptions, quick
+        summarization, and simplified explanations in an "Explain Like I'm 5"
+        style. Furthermore, GPT-4's ability to generate test questions enhances
+        the learning experience, allowing learners to test and reinforce their
         understanding of video content.
       </Paragraph>
       <UnorderedList my={4}>

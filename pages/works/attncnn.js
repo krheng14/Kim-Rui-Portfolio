@@ -18,17 +18,20 @@ const Work = () => (
         How Attention Improves a CNN’s performance <Badge>2023</Badge>
       </Title>
       <Paragraph>
-        This project explores an advanced image classification system employing
-        deep learning techniques. It leverages a dataset of 10,000 cat and dog
-        images from Kaggle, integrating a VGG16 model with self-attention
-        mechanisms for improved accuracy. The system shows capability in
-        focusing on distinctive image regions (e.g. Dog's snout vs Cat's eye),
-        enhancing model interpretability and classification performance.
+        This project delves into an advanced image classification system by
+        incorporating self-attention mechanisms within the transformative
+        architecture of transformers, broadening its application in computer
+        vision. Utilizing a dataset of 10,000 cat and dog images from Kaggle,
+        the system enhances a VGG16 model through self-attention for heightened
+        accuracy. Demonstrating a keen ability to focus on distinctive features
+        of images, such as a dog's snout or a cat's eye, the system
+        significantly improves model interpretability and classification
+        performance.
       </Paragraph>
       <UnorderedList my={4}>
-        <ListItem>Advanced Image Classification with Deep Learning</ListItem>
         <ListItem>
-          Attention Mechanism Integration for Improved Accuracy
+          Enhanced Discernment of Distinct Features Through The Integration of
+          Self-Attention Mechanism
         </ListItem>
         <ListItem>Utilization of Kaggle's Cat and Dog Image Dataset</ListItem>
         <ListItem>PyTorch Implementation for Model Training</ListItem>

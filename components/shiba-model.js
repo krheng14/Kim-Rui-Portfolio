@@ -40,11 +40,12 @@ const ShibaInu = () => {
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(scW, scH)
       renderer.outputColorSpace = THREE.SRGBColorSpace
+      renderer.shadowMap.enabled = true
       container.appendChild(renderer.domElement)
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
-      const target = new THREE.Vector3(-0.5, 1.8, 0) //starting positioning
+      const target = new THREE.Vector3(-0.5, 1.1, 0) //starting positioning
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -65,7 +66,15 @@ const ShibaInu = () => {
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
 
-      const ambientLight = new THREE.AmbientLight(0xcccccc, Math.PI)
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.6)
+      directionalLight.position.set(5, 10, 7.5)
+      directionalLight.castShadow = true
+      directionalLight.shadow.darkness = 0.75
+      directionalLight.shadow.mapSize.width = 2048 // Higher resolution
+      directionalLight.shadow.mapSize.height = 2048
+      scene.add(directionalLight)
+
+      const ambientLight = new THREE.AmbientLight(0xcccccc, Math.PI - 1)
       scene.add(ambientLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
@@ -73,8 +82,8 @@ const ShibaInu = () => {
       controls.target = target
 
       loadGLTFModel(scene, urlDogGLB, {
-        receiveShadow: false,
-        castShadow: false
+        receiveShadow: true,
+        castShadow: true
       }).then(() => {
         animate()
         setLoading(false)
