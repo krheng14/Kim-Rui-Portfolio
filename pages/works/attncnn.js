@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="CNN with Self-Attention">
     <Container>
       <Title>
-        How Attention Improves a CNN’s performance <Badge>2023</Badge>
+        How Attention Improves a CNN&apos;s performance <Badge>2023</Badge>
       </Title>
       <Paragraph>
         This project delves into an advanced image classification system by
@@ -24,7 +24,7 @@ const Work = () => (
         vision. Utilizing a dataset of 10,000 cat and dog images from Kaggle,
         the system enhances a VGG16 model through self-attention for heightened
         accuracy. Demonstrating a keen ability to focus on distinctive features
-        of images, such as a dog's snout or a cat's eye, the system
+        of images, such as a dog&apos;s snout or a cat&apos;s eye, the system
         significantly improves model interpretability and classification
         performance.
       </Paragraph>
@@ -33,7 +33,9 @@ const Work = () => (
           Enhanced Discernment of Distinct Features Through The Integration of
           Self-Attention Mechanism
         </ListItem>
-        <ListItem>Utilization of Kaggle's Cat and Dog Image Dataset</ListItem>
+        <ListItem>
+          Utilization of Kaggle&apos;s Cat and Dog Image Dataset
+        </ListItem>
         <ListItem>PyTorch Implementation for Model Training</ListItem>
       </UnorderedList>
 

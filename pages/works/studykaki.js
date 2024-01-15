@@ -19,22 +19,25 @@ const Work = () => (
       </Title>
       <Paragraph>
         Study Kaki revolutionizes digital learning by allowing learners to
-        'chat' with educational videos through an advanced Large Language Model
-        (LLM). This innovative web application uses Whisper for speech
-        recognition and video-content's transcription and uses OpenAI GPT-4 to
-        provide context-aware responses to learner's content-specific queries.
-        It transforms the way users interact with educational videos by offering
-        features like direct timestamp navigation, transcriptions, quick
-        summarization, and simplified explanations in an "Explain Like I'm 5"
-        style. Furthermore, GPT-4's ability to generate test questions enhances
+        &quot;chat&quot; with educational videos through an advanced Large
+        Language Model (LLM). This innovative web application uses Whisper for
+        speech recognition and video-content&apos;s transcription and uses
+        OpenAI GPT-4 to provide context-aware responses to learner&apos;s
+        content-specific queries. It transforms the way users interact with
+        educational videos by offering features like direct timestamp
+        navigation, transcriptions, quick summarization, and simplified
+        explanations in an &quot;Explain Like I&apos;m 5&quot; style.
+        Furthermore, GPT-4&apos;s ability to generate test questions enhances
         the learning experience, allowing learners to test and reinforce their
         understanding of video content.
       </Paragraph>
       <UnorderedList my={4}>
-        <ListItem>"Chat" with Video</ListItem>
+        <ListItem>&quot;Chat&quot; with Video</ListItem>
         <ListItem>Video Transcription and Summarization</ListItem>
         <ListItem>Quick Timestamp Navigation</ListItem>
-        <ListItem>"Explain Like I'm 5" for Simplified Explanations</ListItem>
+        <ListItem>
+          &quot;Explain Like I&apos;m 5&quot; for Simplified Explanations
+        </ListItem>
         <ListItem>Automated Test Question Generation</ListItem>
       </UnorderedList>
 
