@@ -119,7 +119,7 @@ const ShibaInu = () => {
         renderer.dispose()
       }
     }
-  }, [])
+  }, [urlDogGLB])
 
   useEffect(() => {
     window.addEventListener('resize', handleWindowResize, false)

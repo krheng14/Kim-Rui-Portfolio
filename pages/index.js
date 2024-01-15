@@ -203,7 +203,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoYoutube />}
                 >
-                  Takuya's Tutorial
+                  Takuya&apos;s Tutorial
                 </Button>
               </Link>
             </ListItem>
@@ -236,11 +236,11 @@ const Page = () => {
           This website features 3D models sourced and refined from Sketchfab, an
           online collection of open-source, Blender-compatible assets.
           Contributed by talented artists, these models are further customized
-          by me to enhance the site's visual experience. I thank the community
-          for their foundational work.
+          by me to enhance the site&apos;s visual experience. I thank the
+          community for their foundational work.
           <List>
             <ListItem>
-              <Link href="https://sketchfab.com/feed" target="_blank">
+              <Link href="https://sketchfab.com" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
