@@ -1,12 +1,4 @@
 {
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      },
-      "sourceMaps": false,
-      "command": "npm run build",
-      "use": "@vercel/node"
-    },
     "github": {
         "silent": true
       }
