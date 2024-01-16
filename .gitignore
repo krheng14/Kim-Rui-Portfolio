@@ -5,3 +5,4 @@ dist
 .env.local
 **/blender/
 .DS_Store
+.vscode
