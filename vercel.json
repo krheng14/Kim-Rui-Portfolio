@@ -6,6 +6,9 @@
       "sourceMaps": false,
       "command": "npm run build",
       "use": "@vercel/node"
-    }
+    },
+    "github": {
+        "silent": true
+      }
   }
   
