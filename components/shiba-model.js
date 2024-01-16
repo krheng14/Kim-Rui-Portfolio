@@ -14,7 +14,7 @@ const ShibaInu = () => {
   const refRenderer = useRef()
   const urlDogGLB =
     (process.env.NODE_ENV === 'production'
-      ? 'https://<production-url>/homepage'
+      ? 'https://kim-rui-portfolio.vercel.app'
       : '') + '/shibainu.glb'
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
